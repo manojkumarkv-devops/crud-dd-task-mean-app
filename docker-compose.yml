@@ -10,7 +10,7 @@ services:
       - app-network
 
 backend:
-    image: manojkumarkv/crud-backend:latest
+    image: manojkumarkv/mean-backend:latest
     container_name: backend
     restart: always
     environment:
@@ -21,7 +21,7 @@ backend:
       - app-network
 
   frontend:
-    image: manojkumarkv/crud-frontend:latest
+    image: manojkumarkv/mean-frontend:latest
     container_name: frontend
     restart: always
     depends_on:
