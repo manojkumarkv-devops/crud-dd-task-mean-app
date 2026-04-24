@@ -9,7 +9,7 @@ services:
     networks:
       - app-network
 
-backend:
+  backend:
     image: manojkumarkv/mean-backend:latest
     container_name: backend
     restart: always
